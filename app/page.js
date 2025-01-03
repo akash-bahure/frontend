@@ -19,7 +19,7 @@ export default function Home() {
     setErrorMessage(''); // Reset error message
     setLoading(true); // Start loading
 
-    const res = await fetch('http://localhost:5000/api/bookings', {
+    const res = await fetch('backend-production-98bc.up.railway.app', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
