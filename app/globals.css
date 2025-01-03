@@ -22,7 +22,9 @@ body {
 
 
 /* styles/Home.module.css */
-
+h1{
+  text-align: center;
+}
 /* Flexbox container for centering the form */
 form {
   display: flex;
@@ -34,7 +36,9 @@ form {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+label{
+  margin: 20px 0px;
+}
 form h1 {
   text-align: center;
   color: #333;

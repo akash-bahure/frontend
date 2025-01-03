@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css'; // Import necessary CSS
+import "./globals.css";
 
 export default function Home() {
   const [date, setDate] = useState(new Date());
